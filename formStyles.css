@@ -1,0 +1,158 @@
+*{
+    margin: 0%;
+    padding: 0%;
+    font-family: "Roboto";
+    box-sizing: border-box;
+}
+body{
+    display: flex;
+}
+#heading_txt{
+    font-size: 18px;
+    width: 70%;
+    font-weight: bold;
+}
+#heading2_txt{
+    font-size: 18px;
+    width: 70%;
+    font-weight: bold;
+    margin-top: 5vh;
+}
+#heading{
+    padding: 10% 5% 5% 3vw;
+    height: 30vh;
+    width: 100%;
+    background-color: whitesmoke;
+}
+#form_heading{
+    padding-top: 3vh;
+}
+#form_heading_txt{
+    font-size: 18px;
+    width: 70%;
+    font-weight: bold;
+}
+#form_div{
+    height: 40vh;
+    width: 100%;
+    padding-left: 3vw;
+    padding-bottom: 2vh;
+    padding-top: 3vh;
+}
+#my_form{
+    display: flex;
+
+}
+#section_1{
+    padding-left: 3vw;
+}
+input{
+    display: block;
+    border: 1px solid rgba(50, 50, 50, 0.3);
+    border-radius: 3px;
+    height: 3vh;
+    width: 15vw;
+}
+label{
+    font-size: 10px;
+    font-weight: 700;
+    color: rgb(59, 59, 59);
+    letter-spacing: 1px;
+}
+#cta{
+    height: 30vh;
+    width: 100%;
+    padding-top: 5vh;
+    padding-left: 3vw;
+    background-color: whitesmoke;
+    box-shadow: 0px 5px 5px rgb(174, 174, 174) inset;
+
+}
+#cta_btn{
+    font-size: 12px;
+    font-weight: 500;
+    background-color: #f4a812;
+    color: black;
+    width: 180px;
+    height: 40px;
+    padding: 5px;
+    border-radius: 5px;
+    border:none;
+    cursor: pointer;
+}
+#cta_btn:hover{
+    background-color: black;
+    color: #f4a812;
+}
+#cta_txt{
+    font-size: 12px;
+    margin-top: 3vh;
+}
+.field{
+    padding-top: 20px;
+}
+#left{
+    height: 100vh;
+    width: 32vw;
+}
+#right{
+    height: 100vh;
+    width: 68vw;
+}
+#bg_img{
+    position: absolute;
+    height: 100vh;
+    width: 32vw;
+}
+#logo_container{
+    display: flex;
+    position: relative;
+    justify-content: right;
+    margin-top: 2vh;
+    padding-right: 2vw;
+    width: 32vw;
+}
+#logo_txt{
+    font-size: 47px;
+    font-family: "Protest Guerrilla";
+    color: white;
+}
+#logo_container2{
+    display: flex;
+    justify-content: right;
+    padding-right: 3vw;
+    margin-top: 70vh;
+}
+#logo_img{
+    position: relative;
+    height: auto;
+    width: 5vw;
+}
+#credits_container{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    width: 32vw;
+    margin-top: 4vh;
+}
+#credits{
+    font-size: 10px;
+    color: white;
+}
+#log_in{
+    color: orange;
+}
+input{
+    font-weight: 500;
+    padding-left: 6px;
+    padding-right: 6px;
+}
+input:valid{
+    border: 1px solid green;
+}
+a:link{
+    color: white;
+}
+a:visited{
+    color: orange;
+}
